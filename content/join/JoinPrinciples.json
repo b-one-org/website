@@ -1,0 +1,14 @@
+{ "Features": [{
+    "icon": "fas fa-project-diagram",
+    "title": "Be disruptive"
+  },
+  {
+    "icon": "fas fa-brain",
+    "title": "Think the alternative way"
+  },
+  {
+    "icon": "fas fa-hands",
+    "title": "Do with Love"
+  }
+  ]
+}
