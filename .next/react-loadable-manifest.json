@@ -15,6 +15,18 @@
       "file": "static/chunks/3.js"
     }
   ],
+  "../components/Features": [
+    {
+      "id": "./components/Features.js",
+      "file": "static/chunks/5.js"
+    }
+  ],
+  "../components/Header": [
+    {
+      "id": "./components/Header.js",
+      "file": "static/chunks/4.js"
+    }
+  ],
   "../components/MiddleBlock": [
     {
       "id": "./components/ColoredLine.js",
@@ -9935,6 +9947,12 @@
     {
       "id": "./styles/MiddleBlock.module.css",
       "file": "static/chunks/1.js"
+    }
+  ],
+  "../components/Services": [
+    {
+      "id": "./components/Services.js",
+      "file": "static/chunks/6.js"
     }
   ],
   "./dev/noop": [

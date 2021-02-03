@@ -1,24 +1,23 @@
-import styles from '../styles/Services.module.css'
 
 const Services = ({title,data}) => {
     return (
-      <div className={styles["services-block"]}>
-        <div className={styles["section-title"]}>
-          <h2 className={styles["services-title"]}>{title}</h2>
-          <p className={styles["services-text"]}>
+      <div className='services-block'>
+        <div className='services-section-title'>
+          <h2 className='services-title'>{title}</h2>
+          <p className='services-text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>
         </div>
-        <div className={styles["row"]}>
+        <div className='services-row'>
           {data
             ? data.map((d, i) => (
-                <div  key={`${d.name}-${i}`} className={styles["col-md-4"]}>
+                <div  key={`${d.name}-${i}`} className='services-col-md-4'>
                   {" "}
-                  <i className={d.icon + styles['services-icon']}></i>
-                  <div className={styles["service-desc"]}>
-                    <h3 className={styles["services-subtitle"]}>{d.name}</h3>
-                    <p className={styles["services-text"]}>{d.text}</p>
+                  <i className={d.icon + ' services-icon'}></i>
+                  <div className='services-service-desc'>
+                    <h3 className='services-subtitle'>{d.name}</h3>
+                    <p className='services-text'>{d.text}</p>
                   </div>
                 </div>
               ))

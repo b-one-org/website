@@ -1,7 +1,6 @@
 
 import loadable from '@loadable/component';
-
-import Footer from '../components/Footer';
+import Container from '../components/Container';
 
 import JoinHeaderContent from '../content/join/JoinHeaderContent'
 import ExpAProjects from '../content/join/JoinExpAProjects.json'
@@ -23,54 +22,55 @@ const Services = loadable(() => import('../components/Services'));
 const Join = () => {
   return (
     <>
-      <Header
-      activateButton={true}
-      buttonText={"BECOME A ExpA"}
-      img={'/images/expa-2.jpg'}
-      title={"IMPACT"}
-      content={JoinHeaderContent}
-      />
-      <Features
-      title={"Principles"}
-      data={Principles.Features}
-      />
-      <ContentBlock
-      left={false}
-      img={ExpAProjects.img}
-      title={ExpAProjects.title}
-      content={ExpAProjects.content}
-      />
-      <Services
-      title={"Benefits"}
-      data={BenefitsExpA.Services}
-      />
-      <ContentBlock
-      left={true}
-      img={ExpAProblems.img}
-      title={ExpAProblems.title}
-      content={ExpAProblems.content}
-      />
-      <Features
-      title={"We Are Your Vehicle"}
-      data={BenefitsEntrepreneurExpA.Features}
-      />
-      <ContentBlock
-      left={true}
-      img={Community.img}
-      title={Community.title}
-      content={Community.content}
-      />
-      <ContentBlock
-      left={false}
-      img={Community.img}
-      title={Community.title}
-      content={Community.content}
-      />
-      <MiddleBlock
-      title={ProvocativeEnding.title}
-      content={ProvocativeEnding.content}
-      />
-      <Footer />
+      <Container>
+        <Header
+        activateButton={true}
+        buttonText={"BECOME A ExpA"}
+        img={'/images/expa-2.jpg'}
+        title={"IMPACT"}
+        content={JoinHeaderContent}
+        />
+        <Features
+        title={"Principles"}
+        data={Principles.Features}
+        />
+        <ContentBlock
+        left={false}
+        img={ExpAProjects.img}
+        title={ExpAProjects.title}
+        content={ExpAProjects.content}
+        />
+        <Services
+        title={"Benefits"}
+        data={BenefitsExpA.Services}
+        />
+        <ContentBlock
+        left={true}
+        img={ExpAProblems.img}
+        title={ExpAProblems.title}
+        content={ExpAProblems.content}
+        />
+        <Features
+        title={"We Are Your Vehicle"}
+        data={BenefitsEntrepreneurExpA.Features}
+        />
+        <ContentBlock
+        left={true}
+        img={Community.img}
+        title={Community.title}
+        content={Community.content}
+        />
+        <ContentBlock
+        left={false}
+        img={Community.img}
+        title={Community.title}
+        content={Community.content}
+        />
+        <MiddleBlock
+        title={ProvocativeEnding.title}
+        content={ProvocativeEnding.content}
+        />
+      </Container>
     </>
   );
 }

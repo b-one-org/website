@@ -60,7 +60,6 @@ const Index = () => {
         title={ProvocativeMiddleBlock.title}
         content={ProvocativeMiddleBlock.content}
         />
-        <Footer />
       </Container>
     </>
   );

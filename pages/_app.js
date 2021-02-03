@@ -10,10 +10,9 @@ import '../styles/Cards.css'
 import '../styles/Navbar.css'
 import '../styles/ContentBlock.css'
 import '../styles/Header.css'
-//import '../styles/Features.css'
+import '../styles/Features.css'
 import '../styles/Footer.css'
-
-//import '../styles/Services.css'
+import '../styles/Services.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

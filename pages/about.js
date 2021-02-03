@@ -1,4 +1,5 @@
 import loadable from '@loadable/component';
+import Container from '../components/Container';
 
 import Footer from '../components/Footer';
 
@@ -14,22 +15,23 @@ const ContentBlock = loadable(() => import('../components/ContentBlock'));
 const About = () => {
   return (
     <>
-      <Header
-      img={'/images/sunrise-5.jpg'}
-      title={"VISION"}
-      content={AboutUsHeaderContent}
-      />
-      <MiddleBlock
-      title={Mision.title}
-      content={MisionContent}
-      />
-      <ContentBlock
-      left={false}
-      img={CycleOfSustainability.img}
-      title={CycleOfSustainability.title}
-      content={CycleOfSustainability.content}
-      />
-      <Footer />
+      <Container>
+        <Header
+        img={'/images/sunrise-5.jpg'}
+        title={"VISION"}
+        content={AboutUsHeaderContent}
+        />
+        <MiddleBlock
+        title={Mision.title}
+        content={MisionContent}
+        />
+        <ContentBlock
+        left={false}
+        img={CycleOfSustainability.img}
+        title={CycleOfSustainability.title}
+        content={CycleOfSustainability.content}
+        />
+      </Container>
     </>
   );
 }
