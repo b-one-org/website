@@ -1,5 +1,4 @@
 .services-block {
-    height: 800px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -13,12 +12,15 @@
 .services-row {
     margin-right: -15px;
     margin-left: -15px;
+    width: 80%;
 }
 .services-col-md-4{
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    min-width: 50%;
+    
 }
 .services-service-desc{
     margin: 10px 10px 20px;
@@ -26,14 +28,12 @@
 }
 .services-title {
     color: #0a3d62;
-    font-size: 2.575rem;
-    line-height: 3.0625rem;
+    font-size: 50px;
     padding-bottom: 0.5rem;
+    margin-top: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
-    @media only screen and (max-width: 414px) {
-        font-size: 1.625rem;
-    }
+
 }
 
 .services-subtitle {
@@ -41,9 +41,7 @@
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
-    @media only screen and (max-width: 414px) {
-        font-size: 1.625rem;
-    }
+
 }
 .services-text {
     padding: 0.75rem 0 0.75rem;
@@ -56,6 +54,7 @@
 
 .services-section-title{
 	margin-bottom: 70px;
+    width: 70%;
 }
 
 .services-icon{
@@ -73,5 +72,19 @@
     .services-col-md-4{
         float: left;
         width: 33.33333333%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .services-title {
+        font-size: 35px;
+    }
+    .services-section-title{
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    .services-block {
+        padding: 2rem;
     }
 }

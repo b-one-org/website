@@ -1,8 +1,6 @@
 import loadable from '@loadable/component';
 import Container from '../components/Container';
 
-import Footer from '../components/Footer';
-
 import AboutUsHeaderContent from '../content/about-us/AboutUsHeaderContent'
 import Mision from '../content/about-us/AboutUsMisionMiddleBlock.json'
 import MisionContent from '../content/about-us/AboutUsMisionMiddleBlock.js'

@@ -5,8 +5,7 @@ const Services = ({title,data}) => {
         <div className='services-section-title'>
           <h2 className='services-title'>{title}</h2>
           <p className='services-text'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            When you become an Explorer of the Alternative, you can access many things that keep you in mind-body balance and always learning.
           </p>
         </div>
         <div className='services-row'>

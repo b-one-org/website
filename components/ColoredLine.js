@@ -1,7 +1,7 @@
 
 
-const ColoredLine = ({ color }) => (
-    <hr
+const ColoredLine = ({ styleLine, color }) => (
+    <hr className={styleLine}
         style={{
             color: color,
             backgroundColor: color,

@@ -1,33 +1,33 @@
 {
     "Services": [{
-        "icon": "fa fa-wordpress",
-        "name": "Lorem ipsum dolor",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-book",
+        "name": "Books",
+        "text": ""
     },
     {
-        "icon": "fa fa-cart-arrow-down",
-        "name": "Consectetur adipiscing",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-praying-hands",
+        "name": "Health",
+        "text": ""
     },
     {
-        "icon": "fa fa-cloud-download",
-        "name": "Lorem ipsum dolor",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-chalkboard-teacher",
+        "name": "Courses",
+        "text": ""
     },
     {
-        "icon": "fa fa-language",
-        "name": "Consectetur adipiscing",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-globe-americas",
+        "name": "Hospitality",
+        "text": ""
     },
     {
-        "icon": "fa fa-plane",
-        "name": "Lorem ipsum dolor",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-dumbbell",
+        "name": "Workout",
+        "text": ""
     },
     {
-        "icon": "fa fa-pie-chart",
-        "name": "Consectetur adipiscing",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "icon": "fa fa-users",
+        "name": "Conferences",
+        "text": ""
     }
     ]
 }

@@ -12,7 +12,7 @@ const MiddleBlock = ({ title, content}) => {
         <div className={styles["content-wrapper"]}>
           <Col lg={24} md={24} sm={24} xs={24}>
               <h6 className={styles["middle-block-title"]}>{title}</h6>
-              {/*<ColoredLine className="line" color="#02af64"/>*/}
+              {/*<ColoredLine styleLine={styles["middle-block-hr"]} color="#02af64"/>*/}
               <div className={styles["content"]}>{content}</div>
           </Col>
         </div>

@@ -1,0 +1,14 @@
+{ "Features": [{
+    "icon": "fas fa-project-diagram",
+    "title": "Dedicated Team"
+  },
+  {
+    "icon": "fas fa-brain",
+    "title": "ExpA Manager"
+  },
+  {
+    "icon": "fas fa-hands",
+    "title": "Flexible Contract"
+  }
+  ]
+}

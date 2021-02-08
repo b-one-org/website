@@ -2,26 +2,32 @@
 
 import Button from './Button';
 
-const Header = ({img, activateButton=false, buttonText, title, content}) => {
+const Header = ({img, activateButton=false, buttonText, btnStyle='btn--outline', title, content}) => {
   return (
-    <div className='header-container'>
+    <>
+      {activateButton ?
+      <div className='header-container'>
         <img src={img}/>
-        <h2>{title}</h2>
+        <h2 className='header-container-h2-button'>{title}</h2>
         {content}
-        {activateButton ? 
         <div className='header-btns'>
           <Button
               className='btns'
-              buttonStyle='btn--outline'
+              buttonStyle={btnStyle}
               buttonSize='btn--large'
               linkTo="/join"
             >
               {buttonText}
           </Button>
-        </div> :
-        null
-        }
-    </div>
+        </div>
+      </div> :
+      <div className='header-container'>
+        <img src={img}/>
+        <h2 className='header-container-h2'>{title}</h2>
+        {content}
+      </div>
+      }
+    </>
   );
 }
 

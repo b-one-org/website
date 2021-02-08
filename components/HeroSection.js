@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className='header-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>EXPLORE THE ALTERNATIVE</h1>
-      <p className="header-container-text">The <b className="bold-color">Explorers</b> of the <b className="bold-color">Alternative</b> are the most disruptive and energize people, who works for challenging projects.</p>
+      <p className="header-container-text">The <b className="bold-color">Explorers</b> of the <b className="bold-color">Alternative</b> are the most disruptive people who works for challenging projects.</p>
 
       <div className='header-btns'>
         <Button

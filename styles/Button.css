@@ -22,13 +22,19 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--middleblock {
+  background-color:#0a3d62;
+  color: var(--primary);
+  border: 1px solid #0a3d62;
+}
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
 }
 
 .btn--large {
-  width: 195px;
+  width: 215px;
   padding: 12px 26px;
   font-size: 20px;
 }
