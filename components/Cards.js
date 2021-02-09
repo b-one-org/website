@@ -22,7 +22,7 @@ const Cards = () => {
             <CardItem
               src='images/problem-2.jpg'
               text='Trust us your problem'
-              path='/projects'
+              path='https://airtable.com/shrvo0dz6nvEEXMIl'
             />
           </ul>
         </div>

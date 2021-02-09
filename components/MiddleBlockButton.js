@@ -6,7 +6,7 @@ import styles from '../styles/MiddleBlock.module.css'
 
 import ColoredLine from './ColoredLine'
 
-const MiddleBlockButton = ({ title, content, buttonText}) => {
+const MiddleBlockButton = ({ title, content, buttonText, buttonLink="/"}) => {
   return (
     <div className={styles["middle-block"]}>
       <Row type="flex" justify="center" align="middle">
@@ -17,7 +17,7 @@ const MiddleBlockButton = ({ title, content, buttonText}) => {
               <div className={styles["content"]}>{content}</div>
               <div className={styles["middle-block-button"]}>
                 <Button
-                linkTo="/join"
+                linkTo={buttonLink}
                 buttonStyle='btn--middleblock'
                 buttonSize='btn--large'
                 >

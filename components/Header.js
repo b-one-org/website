@@ -2,7 +2,7 @@
 
 import Button from './Button';
 
-const Header = ({img, activateButton=false, buttonText, btnStyle='btn--outline', title, content}) => {
+const Header = ({img, activateButton=false, buttonText, btnStyle='btn--outline', title, content, buttonLink="/"}) => {
   return (
     <>
       {activateButton ?
@@ -15,7 +15,7 @@ const Header = ({img, activateButton=false, buttonText, btnStyle='btn--outline',
               className='btns'
               buttonStyle={btnStyle}
               buttonSize='btn--large'
-              linkTo="/join"
+              linkTo={buttonLink}
             >
               {buttonText}
           </Button>

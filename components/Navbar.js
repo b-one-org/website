@@ -54,13 +54,20 @@ const Navbar = () => {
             </li>
             <li className='navbar-nav-item'>
               <Link
-                href='/projects'
+                href="https://www.notion.so/boneorg/Job-Board-2b1cd9bc860b442aa4f92f332891ae29"
                 onClick={closeMobileMenu}
               >
                 <a className='navbar-nav-links'>Projects</a>
               </Link>
             </li>
-
+            <li className='navbar-nav-item'>
+              <Link
+                href='https://www.notion.so/boneorg/Challenge-e8a10a70b85e413fba5c721c34695e91'
+                onClick={closeMobileMenu}
+              >
+                <a className='navbar-nav-links'>Challenges</a>
+              </Link>
+            </li>
             <li>
               <Link
                 href='/join'

@@ -31,6 +31,7 @@ const Join = () => {
         img={'/images/expa-2.jpg'}
         title={"IMPACT"}
         content={JoinHeaderContent}
+        buttonLink={"https://airtable.com/shrCuV6CA4uhuZtTv"}
         />
         <Features
         title={"Principles"}
@@ -72,6 +73,7 @@ const Join = () => {
         title={ProvocativeEnding.title}
         content={ProvocativeEnding.content}
         buttonText={ProvocativeEnding.buttonText}
+        buttonLink={"https://airtable.com/shrCuV6CA4uhuZtTv"}
         />
       </Container>
     </>

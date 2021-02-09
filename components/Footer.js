@@ -30,16 +30,18 @@ const Footer = () => {
           <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link href='/about' exact>Vision</Link>
-            <Link href='/'>Concepts</Link>
+            <Link href='/about'>Community</Link>
+            <Link href='/about'>Frameworks</Link>
           </div>
           <div className='footer-link-items'>
             <h2>ExpA</h2>
-            <Link href='/'>Who they are</Link>
-            <Link href='/'>Principles</Link>
+            <Link href='/join'>Who they are</Link>
+            <Link href='/join'>Principles</Link>
+            <Link href='/join'>Benefits</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Connect</h2>
-            <Link href='/'>Contact Us</Link>
+            <Link href='https://airtable.com/shrvo0dz6nvEEXMIl'>Contact Us</Link>
             <Link href='/'>Instagram</Link>
             <Link href='/'>Youtube</Link>
             <Link href='/'>LinkedIn</Link>

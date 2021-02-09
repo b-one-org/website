@@ -5,10 +5,10 @@ import Container from '../components/Container';
 import HireHeaderContent from '../content/hire/HireHeaderContent'
 import HireExpAIndividually from '../content/hire/HireExpAIndividually.json'
 import HireExpATeam from '../content/hire/HireExpATeam.json'
-import AboutExpA from '../content/hire/AboutExpA.json'
+//import AboutExpA from '../content/hire/AboutExpA.json'
 import AboutExpAContent from '../content/hire/AboutExpA.js'
 import HireRemoteOnsite from '../content/hire/HireRemoteOnsite.json'
-import ExpATrain from '../content/hire/HireExpATrain.json'
+import ExpASkills from '../content/hire/HireExpASkills.json'
 import ExpAMotivated from '../content/hire/HireExpAMotivated.json'
 import PartnerBenefits from '../content/hire/HirePartnerBenefits.json';
 import ProvocativeEnding from '../content/hire/HireProvocativeMiddleBlock.json'
@@ -32,6 +32,7 @@ const Hire = () => {
         img={'/images/header-hire.jpg'}
         title={"IMPULSE"}
         content={HireHeaderContent}
+        buttonLink={"https://airtable.com/shrRYInHwVlgOx1o8"}
         />
         <MiddleBlock
         title={"Who They Are"}
@@ -59,9 +60,9 @@ const Hire = () => {
         />
         <ContentBlock
         left={true}
-        img={ExpATrain.img}
-        title={ExpATrain.title}
-        content={ExpATrain.content}
+        img={ExpASkills.img}
+        title={ExpASkills.title}
+        content={ExpASkills.content}
         />
         <ContentBlock
         left={false}
@@ -73,6 +74,7 @@ const Hire = () => {
         title={ProvocativeEnding.title}
         content={ProvocativeEnding.content}
         buttonText={ProvocativeEnding.buttonText}
+        buttonLink={"https://airtable.com/shrRYInHwVlgOx1o8"}
         />
       </Container>
     </>
