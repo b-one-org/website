@@ -1,38 +1,78 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-b7b042dafc30d210a3d4.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/buukJFaKX5IrNZFjlj9iO/_buildManifest.js",
+    "static/buukJFaKX5IrNZFjlj9iO/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/index-4eaf7586912298925013.js"
     ],
     "/_app": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/27f0ab95.99f60af62621e1ffd577.js",
+      "static/chunks/9e499fc4.31eaf272c3e05c38611a.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/css/b9b1d904d200bbd1e2dd.css",
+      "static/chunks/pages/_app-667c4cabe0656f45df76.js"
     ],
     "/_error": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/pages/_error-f89115cef3c6b9b0709a.js"
+    ],
+    "/about": [
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/about-46c3d8915002de7b7da2.js"
+    ],
+    "/challenges": [
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/challenges-d1726a6d4f0066c1362c.js"
     ],
     "/hire": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hire.js"
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/hire-ad9814ac5c4f000e10c0.js"
+    ],
+    "/join": [
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/join-978824f30f472a1ffb30.js"
+    ],
+    "/projects": [
+      "static/chunks/main-c75d90abca33f8a753e1.js",
+      "static/chunks/webpack-3615f3e96dd44d4d4ebc.js",
+      "static/chunks/framework.9d524150d48315f49e80.js",
+      "static/chunks/commons.842d90bfc9d37c160325.js",
+      "static/chunks/6485b492457904ea6197c15ac2d216a983720e8a.759bf60dfb3c75ae347f.js",
+      "static/chunks/pages/projects-da00131bd387c0741d9e.js"
     ]
   },
   "ampFirstPages": []
