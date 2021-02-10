@@ -1,5 +1,6 @@
 import loadable from '@loadable/component';
 import Container from '../components/Container';
+import Head from 'next/head'
 
 import AboutUsHeaderContent from '../content/about-us/AboutUsHeaderContent'
 import Mision from '../content/about-us/AboutUsMisionMiddleBlock.json'
@@ -16,6 +17,10 @@ const ContentBlock = loadable(() => import('../components/ContentBlock'));
 const About = () => {
   return (
     <>
+      <Head>
+        <title>BOne - About us</title>
+        <link rel="shortcut icon" href="/circle-regular.svg" />
+      </Head>
       <Container>
         <Header
         img={'/images/sunrise-5.jpg'}
