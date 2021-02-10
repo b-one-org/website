@@ -1,13 +1,13 @@
 { "Features": [{
-    "icon": "fas fa-project-diagram",
+    "icon": "fas fa-users",
     "title": "Dedicated Team"
   },
   {
-    "icon": "fas fa-brain",
+    "icon": "fas fa-headset",
     "title": "ExpA Manager"
   },
   {
-    "icon": "fas fa-hands",
+    "icon": "fas fa-file-contract",
     "title": "Flexible Contract"
   }
   ]
