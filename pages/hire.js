@@ -1,6 +1,7 @@
 
 import loadable from '@loadable/component';
 import Container from '../components/Container';
+import Head from 'next/head'
 
 import HireHeaderContent from '../content/hire/HireHeaderContent'
 import HireExpAIndividually from '../content/hire/HireExpAIndividually.json'
@@ -24,6 +25,10 @@ const Features = loadable(() => import('../components/Features'));
 const Hire = () => {
   return (
     <>
+      <Head>
+        <title>BOne - Hire</title>
+        <link rel="shortcut icon" href="/circle-regular.svg" />
+      </Head>
       <Container>
       <Header
         activateButton={true}

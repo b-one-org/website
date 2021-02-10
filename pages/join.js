@@ -1,6 +1,7 @@
 
 import loadable from '@loadable/component';
 import Container from '../components/Container';
+import Head from 'next/head'
 
 import JoinHeaderContent from '../content/join/JoinHeaderContent'
 import ExpAProjects from '../content/join/JoinExpAProjects.json'
@@ -23,6 +24,10 @@ const Services = loadable(() => import('../components/Services'));
 const Join = () => {
   return (
     <>
+      <Head>
+        <title>BOne - Join</title>
+        <link rel="shortcut icon" href="/circle-regular.svg" />
+      </Head>
       <Container>
         <Header
         activateButton={true}

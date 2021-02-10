@@ -1,4 +1,5 @@
 import Container from '../components/Container';
+import Head from 'next/head'
 
 import loadable from '@loadable/component';
 
@@ -21,6 +22,10 @@ const ContentBlock = loadable(() => import('../components/ContentBlock'));
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>BOne</title>
+        <link rel="shortcut icon" href="/circle-regular.svg" />
+      </Head>
       <Container>
         <HeroSection />
         <MiddleBlock 

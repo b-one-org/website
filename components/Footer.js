@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/*<section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the newsletter
         </p>
@@ -24,7 +24,7 @@ const Footer = () => {
             <Button linkTo='/' buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section>*/}
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
