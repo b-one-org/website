@@ -55,7 +55,7 @@ const Footer = () => {
               <img className='footer-social-logo-img' src='logo.svg'/>
             </Link>
           </div>
-          <small className='footer-website-rights'>BOne © 2020</small>
+          <small className='footer-website-rights'>BOne © 2021</small>
           <div className='footer-social-icons'>
             <Link
               href='/'
