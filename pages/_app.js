@@ -14,6 +14,6 @@ import '../styles/Features.css'
 import '../styles/Footer.css'
 import '../styles/Services.css'
 
-export default function App({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
